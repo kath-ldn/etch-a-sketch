@@ -1,0 +1,52 @@
+h1 {
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    color: rgb(54, 54, 54);
+}
+
+#containerFrame {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 42%;
+    margin-top: 20px;
+    background-color: white;  
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    height: 800px;
+    width: 800px;
+    background-color: #faf7f0;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#container > div {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
+.hoverDiv {
+    background-color: plum;
+}
+
+.blank {
+    background-color: white;
+}
+
+#resetButtonDiv {
+display: block;
+margin: auto;
+width: 8%;
+margin-top: 40px;
+background-color: white;
+}
+
+button {
+    margin: auto;
+}
