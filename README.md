@@ -43,7 +43,7 @@ Copyright (c) 2021 Kath Turner
 
 For the next version I may:
 * Add a color picker so that the user can select their own color
-* Make it responsive
+* Make it responsive/mobile-friendly (it currently isn't)
 
 ### Known Issues
 
