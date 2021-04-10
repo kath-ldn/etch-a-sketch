@@ -1,52 +1,145 @@
-h1 {
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-    color: rgb(54, 54, 54);
+@import url(./reset.css);
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
-#containerFrame {
-    display: block;
-    margin: auto;
-    padding: 20px;
-    width: 42%;
-    margin-top: 20px;
-    background-color: white;  
+h1 {
+    color: rgb(54, 54, 54);
+    font-size: 30px;
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    width: 100vw;
+    text-align: center;
+    border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+.control-button-wrapper{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+
+.control-button, #fade-button{
+    width: 100px;
+    padding: 2px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    border: none;
 }
 
 #container {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
-    height: 800px;
-    width: 800px;
-    background-color: #faf7f0;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+    height: 80vh;
+    width: 80vh;
+    border-left: 0.5px solid rgb(211, 211, 211);
+    border-bottom: 0.5px solid rgb(211, 211, 211);
 }
 
-#container > div {
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-
+#container div {
+    border-top: 0.5px solid rgb(211, 211, 211);
+    border-right: 0.5px solid rgb(211, 211, 211);
 }
 
-.hoverDiv {
-    background-color: plum;
+.hoverGreen, #Green {
+    transition: 0.3s ease-in;
+    background-color: rgba(99, 243, 32, 0.616);
+}
+
+.hoverRed, #Red {
+    transition: 0.3s ease-in;
+    background-color: rgba(219, 109, 109, 0.753);
+}
+
+.hoverPurple, #Purple {
+    transition: 0.3s ease-in;
+    background-color: rgba(157, 98, 197, 0.616);
+}
+
+.hoverYellow, #Yellow {
+    transition: 0.3s ease-in;
+    background-color: rgba(247, 232, 96, 0.808);
+}
+
+.hoverOrange, #Orange {
+    transition: 0.3s ease-in;
+    background-color: rgba(243, 134, 32, 0.616);
+}
+
+.hoverBlue, #Blue {
+    transition: 0.3s ease-in;
+    background-color: rgba(32, 176, 243, 0.616);
+}
+
+.hoverPink, #Pink {
+    transition: 0.3s ease-in;
+    background-color: rgba(245, 119, 213, 0.685);
+}
+
+#Rainbow{
+    transition: 0.3s ease-in;
+    background-color: white;
+    background: url(./assets/rainbow.png) no-repeat;
+    background-size: cover;
+}
+
+#eraser{
+    transition: 0.3s ease-in;
+    background-color: white;
+    background: url(./assets/eraser.png) no-repeat;
+    background-size: cover;
 }
 
 .blank {
+    transition: 0.3s ease-out;
     background-color: white;
 }
 
-#resetButtonDiv {
-display: block;
-margin: auto;
-width: 8%;
-margin-top: 40px;
-background-color: white;
+/*'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Pink', 'Purple', 'Rainbow' */
+
+p{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
 }
 
-button {
-    margin: auto;
+#palette{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    top: 100px;
+    right: 20px;
+    justify-content: center;
+}
+
+.pen{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+}
+
+.pen:focus{
+    outline: none;
+    opacity: 50%;
+}
+
+#fade-button{
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    font-size: 13px;
+}
+
+#fade-button:focus{
+    outline: none;
 }

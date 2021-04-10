@@ -1,13 +1,56 @@
-i am going to try and make an etch-a-sketch/sketch-pad type thing
+# SketchPad v2.0
 
-help me i'm scared
+## About
 
-xoxo
+This is v2.0 of the sketch pad that I made in response to [The Odin Project Web Development Foundations module Project: Etch-A-Sketch](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/etch-a-sketch-project).
 
-Ok I found this okk!!
+V2.0 updates:
+* Improved UX/UI
+* Ability to select pen color/rainbow option
+* Ability to select whether pen fades or not
+* Eraser function
+* Ability to clear grid OR change size - previously one button for both.
 
-I managed to get to step 4.2 with just googling and learning.
+### Live Demo
 
-I couldn't for the life of me work out how to change the grid dimension so I looked at other student answers and amended my code based on that.
+[GitHub Pages](https://kath-ldn.github.io/etch-a-sketch/)
 
-But I feel like I learned a lot!
+### Built with
+
+* HTML
+* CSS
+* Vanilla Javascript
+
+## Prerequisites & Installation
+
+No special requirements.
+
+## Usage
+
+Use the Sketch Pad to draw something! Select a pen color, a grid size, and whether the 'ink' automatically fades away. You can also erase any mistakes with the eraser tool.
+
+## Contributing
+
+For any suggested changes, please open an issue first.
+
+## Licence
+
+Distributed under the [MIT](https://choosealicense.com/licenses/mit/) licence.
+
+Copyright (c) [2021] [Kath Turner]
+
+## Roadmap
+
+For the next version I may:
+* Add a color picker so that the user can select their own color
+
+### Known Issues
+
+* None observed - please let me know if you spot one!
+
+## Acknowledgements
+
+* Google Fonts
+* CSS-Tricks
+* GitHub Pages
+
