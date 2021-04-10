@@ -13,7 +13,7 @@ V2.0 updates:
 
 ### Live Demo
 
-[GitHub Pages](https://kath-ldn.github.io/etch-a-sketch/)
+[GitHub Pages](https://kath-ldn.github.io/sketch-pad/)
 
 ### Built with
 
